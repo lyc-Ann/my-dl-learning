@@ -48,6 +48,6 @@ for epoch in range(5):    # 训练5次
 
         total_loss += loss.item()
 
-    print(f"Epoch{epoch+1}, Loss:{total_loss:.4f}")
+    print(f"Epoch {epoch+1}, Loss: {total_loss / len(train_loader):.4f}")
 
 print("训练完成")
