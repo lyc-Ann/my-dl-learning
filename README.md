@@ -20,10 +20,11 @@
 
 ---
 
-## 🎯 正在学习
-
-- Transformer（Self-Attention、Multi-Head Attention）
-- 图神经网络（GCN、GAT）
+### 3. 图神经网络节点分类（Cora）
+- 代码：[GCN_Cora/gcn_cora.py](GCN_Cora/gcn_cora.py)
+- 说明：[GCN_Cora/README.md](GCN_Cora/README.md)
+- 技术点：PyTorch Geometric、GCN、消息传递
+- 准确率：约 79%
 
 ---
 
