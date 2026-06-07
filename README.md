@@ -4,17 +4,19 @@
 
 ---
 
-## 📁 项目列表
+## 📁 已完成项目
 
 ### 1. 手写数字识别（MNIST）
-- 路径：[MNIST/](MNIST/)
-- 技术点：PyTorch、nn.Module、训练循环、DataLoader
-- 状态：✅ 完成
+- 代码：[MNIST/day4.py](MNIST/day4.py)
+- 说明：[MNIST/README.md](MNIST/README.md)
+- 技术点：PyTorch、全连接网络、训练循环
+- 准确率：约 96%
 
 ### 2. 猫狗分类（Cat vs Dog）
-- 路径：[CatDog_Demo/](CatDog_Demo/)
+- 代码：[CatDog_Demo/train.py](CatDog_Demo/train.py)
+- 说明：[CatDog_Demo/README.md](CatDog_Demo/README.md)
 - 技术点：自定义Dataset、CNN、训练/测试集划分
-- 状态：✅ 完成
+- 准确率：约 68%
 
 ---
 
@@ -22,7 +24,6 @@
 
 - Transformer（Self-Attention、Multi-Head Attention）
 - 图神经网络（GCN、GAT）
-- 目标检测与跟踪（待开始）
 
 ---
 
