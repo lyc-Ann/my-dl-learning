@@ -1,14 +1,33 @@
 # 猫狗分类（Cat vs Dog）
 
+## 项目简介
+从 CIFAR-10 数据集中提取猫狗图片，使用 PyTorch 构建 CNN 进行二分类。
+
 ## 文件说明
+- `day5.py` / `train.py`：训练 CNN 分类模型
 - `export_data.py`：从 CIFAR-10 导出猫狗图片
-- `train.py`：训练 CNN 分类模型
 - `requirements.txt`：依赖包列表
 
 ## 运行步骤
 1. `pip install -r requirements.txt`
-2. `python export_data.py`（首次运行）
-3. `python train.py`
+2. `python export_data.py`（首次运行，导出图片）
+3. `python train.py`（训练模型）
+
+## 模型结构
+- 卷积层1：3 → 16 通道
+- 卷积层2：16 → 32 通道
+- 全连接层：32768 → 128 → 2
+
+## 训练结果
+| Epoch | Loss | 训练准确率 |
+|-------|------|-----------|
+| 1 | 167.59 | 59.99% |
+| 2 | 159.17 | 63.51% |
+| 3 | 145.54 | 68.94% |
+| 4 | 125.59 | 75.16% |
+| 5 | 92.18 | 83.39% |
+
+- 测试准确率：约 **68%**
 
 ## 技术点
 - 自定义 Dataset
