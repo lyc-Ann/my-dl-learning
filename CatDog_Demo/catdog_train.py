@@ -1,3 +1,8 @@
+"""
+猫狗图像分类（Cat vs Dog）
+从 CIFAR-10 提取猫狗图片，构建 CNN 进行二分类
+包含自定义 Dataset、数据预处理、训练/测试划分、Dropout 防过拟合
+"""
 import os
 import torch
 import torch.nn as nn
