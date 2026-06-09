@@ -1,7 +1,7 @@
 # 手写数字识别（MNIST）
 
 ## 项目简介
-使用 PyTorch 实现的两层全连接神经网络，在 MNIST 数据集上实现手写数字分类。
+使用 PyTorch 搭建两层全连接网络，在 MNIST 数据集上实现手写数字分类。
 
 ## 模型结构
 - 输入层：784（28×28 图片展平）
@@ -10,4 +10,4 @@
 
 ## 运行方法
 ```bash
-python day4.py
+python mnist_train.py
