@@ -1,3 +1,8 @@
+"""
+图注意力网络（GAT）节点分类 - Cora 数据集
+使用 PyTorch Geometric 实现 GAT，采用多头注意力机制（8个头）
+对比 GCN，准确率提升约 3%
+"""
 import torch
 import torch.nn as nn
 import torch.nn.functional as f
