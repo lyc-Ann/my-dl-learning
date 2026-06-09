@@ -1,3 +1,8 @@
+"""
+手写数字识别（MNIST）
+使用 PyTorch 搭建两层全连接网络（784→128→10）
+包含完整的训练循环和测试流程
+"""
 import torch
 import torch.nn as nn
 import torch.optim as optim
